@@ -18,10 +18,10 @@ Experiments Index
 In the following are listed the files, executables and results for the experiments provided in the conference paper.
 
 In details:
-* **DeclaraTree performance**: script and data to launch the performance test;
-* **DeclaraTree results**: Original data, scripts to launch the tests, results Decision trees discovered ;
+* [DeclaraTree](./DeclaraTree/DeclaraTree.md): experiments on the feature for decision tree building for event logs;
 
-INDEX
+Files Index
+=========================
 <!-- filetree -->
 
  - [LICENSE](./LICENSE)
