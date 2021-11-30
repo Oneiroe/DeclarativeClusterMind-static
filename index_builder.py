@@ -7,7 +7,7 @@ run from command line:
     $ python md_file_tree.py
 
 will generate a  markdown index of all markdown files in the current working
-directory and its sub folders and insert it into  a file `index.md`.
+directory and its sub folders and insert it into  a file `README.md`.
 If a previous index exists in the file it will be replaced,
 otherwise a new index will be created at the end of the file
 or a new file created.
@@ -177,7 +177,7 @@ def main():
 
     parser.add_argument('filename',
                         nargs='?',
-                        default='index.md',
+                        default='README.md',
                         help="markdown output file")
     parser.add_argument('--full', '-f',
                         action='store_true',
